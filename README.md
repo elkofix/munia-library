@@ -60,8 +60,8 @@ Frontend: [http://localhost:3000](http://localhost:3000)
 
 #### Backend
 El backend está desplegado en Render y disponible en la siguiente URL:
-[[https://backend-service.onrender.com](https://library-backend-y45c.onrender.com/api/v1/books)]()
+[https://backend-service.onrender.com](https://library-backend-y45c.onrender.com/api/v1/books)
 
 #### Frontend
 El frontend está desplegado en Render y disponible en la siguiente URL:
-[[https://frontend-service.onrender.com](https://library-fronted.onrender.com/)]()
+[https://frontend-service.onrender.com](https://library-fronted.onrender.com/)
