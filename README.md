@@ -30,6 +30,17 @@ Si aún no has clonado el proyecto, hazlo con el siguiente comando:
 git clone https://github.com/elkofix/munia-library
 cd munia-library
 ```
+
+### Paso 1.1: Agregar variable de entorno
+
+En la carpeta library crear un archivo ```.env``` y escribir dentro de el
+
+```
+REACT_APP_API_URL=http://localhost:8000
+```
+
+Guardar archivo
+
 ### Paso 2: Crear las imágenes Docker y ejecutar los contenedores
 
 ```
