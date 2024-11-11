@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+
+input[type="text"]:focus {
+    border-color: #4CAF50;
+}
+
+.beige{
+    background-color: beige;
+}
+
+
+#root{
+    background-color: beige;
+    height: 100vh;
+}
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button .me-2 {
+    margin-right: 8px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 24px;
+}
+
+.form-container {
+    margin-top: 40px; 
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+.books-container {
+    margin-top: 40px;
+}
+
+
+.slided {
+    margin-left: -30px;
+}
+
+.img {
+    height: 30px !important;
+}
+
+.img2 {
+    height: 132px !important;
+}
+
+.books-container {
+    width: 100%;
+    overflow: hidden;
+}
+.fade-in {
+    opacity: 0;
+    top: -10000%;
+    transition: opacity 0.2s ease-in;
+}
+  
+  .fade-in.show {
+    opacity: 1;
+    top: 110%;
+  }
